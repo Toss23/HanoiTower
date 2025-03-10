@@ -8,3 +8,13 @@ E:\HanoiTower\obj\Debug\HanoiTower.csproj.GenerateResource.cache
 E:\HanoiTower\obj\Debug\HanoiTower.csproj.CoreCompileInputs.cache
 E:\HanoiTower\obj\Debug\HanoiTower.exe
 E:\HanoiTower\obj\Debug\HanoiTower.pdb
+C:\Users\mas\Desktop\HanoiTower-main\bin\Debug\HanoiTower.exe.config
+C:\Users\mas\Desktop\HanoiTower-main\bin\Debug\HanoiTower.exe
+C:\Users\mas\Desktop\HanoiTower-main\bin\Debug\HanoiTower.pdb
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.csproj.AssemblyReference.cache
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.Form1.resources
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.Properties.Resources.resources
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.csproj.GenerateResource.cache
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.csproj.CoreCompileInputs.cache
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.exe
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.pdb

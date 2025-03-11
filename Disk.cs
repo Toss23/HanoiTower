@@ -10,5 +10,10 @@
             Size = size;
             Width = width;
         }
+
+        public static int GetDiskWidth(int diskSize)
+        {
+            return 20 + diskSize * 20;
+        }
     }
 }

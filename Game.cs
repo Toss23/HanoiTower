@@ -4,7 +4,7 @@ namespace HanoiTower
 {
     public class Game
     {
-        private enum GameState
+        public enum GameState
         {
             Reseted, Playing, Stopped
         }
@@ -15,6 +15,7 @@ namespace HanoiTower
         private List<(int disk, int fromPeg, int toPeg)> _moveQueue;
         private GameState _state;
 
+        public GameState State => _state;
         public List<Disk>[] Pegs => _pegs;
         public bool QueueIsEmpty => _moveQueue.Count <= 0;
 
@@ -35,7 +36,7 @@ namespace HanoiTower
 
             for (int i = DiskCount; i > 0; i--)
             {
-                _pegs[0].Add(new Disk(i, GetDiskWidth(i)));
+                _pegs[0].Add(new Disk(i, Disk.GetDiskWidth(i)));
             }
 
             _moveQueue = new List<(int, int, int)>();
@@ -74,11 +75,6 @@ namespace HanoiTower
             }
 
             return false;
-        }
-
-        public int GetDiskWidth(int diskSize)
-        {
-            return 20 + diskSize * 20;
         }
 
         public void Update()

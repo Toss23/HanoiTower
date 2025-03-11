@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mas\\Desktop\\HanoiTower-main\\",
+  "WorkspaceRootPath": "C:\\GitHub\\HanoiTower\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\users\\mas\\desktop\\hanoitower-main\\draw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\github\\hanoitower\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\github\\hanoitower\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\github\\hanoitower\\draw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:draw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|C:\\Users\\mas\\Desktop\\HanoiTower-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\users\\mas\\desktop\\hanoitower-main\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\github\\hanoitower\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\users\\mas\\desktop\\hanoitower-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\github\\hanoitower\\serializedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:serializedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,55 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\mas\\Desktop\\HanoiTower-main\\Game.cs",
+              "DocumentMoniker": "C:\\GitHub\\HanoiTower\\Game.cs",
               "RelativeDocumentMoniker": "Game.cs",
-              "ToolTip": "C:\\Users\\mas\\Desktop\\HanoiTower-main\\Game.cs",
+              "ToolTip": "C:\\GitHub\\HanoiTower\\Game.cs",
               "RelativeToolTip": "Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T08:20:30.989Z",
+              "WhenOpened": "2025-03-11T09:05:19.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Draw.cs",
+              "DocumentMoniker": "C:\\GitHub\\HanoiTower\\Draw.cs",
+              "RelativeDocumentMoniker": "Draw.cs",
+              "ToolTip": "C:\\GitHub\\HanoiTower\\Draw.cs",
+              "RelativeToolTip": "Draw.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAACwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T09:04:23.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SerializedObject.cs",
+              "DocumentMoniker": "C:\\GitHub\\HanoiTower\\SerializedObject.cs",
+              "RelativeDocumentMoniker": "SerializedObject.cs",
+              "ToolTip": "C:\\GitHub\\HanoiTower\\SerializedObject.cs",
+              "RelativeToolTip": "SerializedObject.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA7wB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T08:55:34.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Draw.cs",
-              "DocumentMoniker": "C:\\Users\\mas\\Desktop\\HanoiTower-main\\Draw.cs",
-              "RelativeDocumentMoniker": "Draw.cs",
-              "ToolTip": "C:\\Users\\mas\\Desktop\\HanoiTower-main\\Draw.cs",
-              "RelativeToolTip": "Draw.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T08:04:10.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\mas\\Desktop\\HanoiTower-main\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\mas\\Desktop\\HanoiTower-main\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAcAAAAAAAAAA==",
+              "Title": "GameForm.cs",
+              "DocumentMoniker": "C:\\GitHub\\HanoiTower\\GameForm.cs",
+              "RelativeDocumentMoniker": "GameForm.cs",
+              "ToolTip": "C:\\GitHub\\HanoiTower\\GameForm.cs",
+              "RelativeToolTip": "GameForm.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwCUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T17:28:56.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\mas\\Desktop\\HanoiTower-main\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\mas\\Desktop\\HanoiTower-main\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentIndex": 1,
+              "Title": "GameForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\GitHub\\HanoiTower\\GameForm.cs",
+              "RelativeDocumentMoniker": "GameForm.cs",
+              "ToolTip": "C:\\GitHub\\HanoiTower\\GameForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "GameForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T17:25:00.031Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"

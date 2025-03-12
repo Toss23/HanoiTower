@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\github\\hanoitower\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|C:\\GitHub\\HanoiTower\\gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:gameform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\github\\hanoitower\\draw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|C:\\GitHub\\HanoiTower\\draw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:draw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\github\\hanoitower\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|C:\\GitHub\\HanoiTower\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|c:\\github\\hanoitower\\serializedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|C:\\GitHub\\HanoiTower\\serializedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D74D5F5-B1C1-467C-BE2A-507C19856665}|HanoiTower.csproj|solutionrelative:serializedobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Game.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:05:19.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T09:05:19.347Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Draw.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAAACwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T09:04:23.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T09:04:23.902Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "SerializedObject.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAIA7wB0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T08:55:34.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T08:55:34.766Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "ToolTip": "C:\\GitHub\\HanoiTower\\GameForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "GameForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T17:25:00.031Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-03-07T17:25:00.031Z"
             }
           ]
         }

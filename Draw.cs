@@ -56,6 +56,7 @@ namespace HanoiTower
 
         public void DrawDisks(Graphics g)
         {
+            Pen borderPen = new Pen(Color.Black, 2);
             for (int i = 0; i < 3; i++)
             {
                 int x = (i + 1) * _pegSpacing;
@@ -64,6 +65,7 @@ namespace HanoiTower
                     var disk = _game.Pegs[i][j];
                     int y = _pegPedding - (j + 1) * _diskHeight;
                     g.FillRectangle(Brushes.CornflowerBlue, x - disk.Width / 2, y, disk.Width, _diskHeight);
+                    g.DrawRectangle(borderPen, x - disk.Width / 2, y, disk.Width, _diskHeight);
                 }
             }
         }

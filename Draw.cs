@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using System.Drawing;
-using System.Windows.Forms;
 
 namespace HanoiTower
 {
@@ -11,36 +10,21 @@ namespace HanoiTower
 
         private int _diskHeight = 20;
         private int _pegWidth = 10;
-        private int _pegPedding = 300;
+        private int _pegPedding = 360;
         private int _pegSpacing = 200;
-
-        private Dictionary<(int, int), (int, int, int, int)> _resolution = new Dictionary<(int, int), (int, int, int, int)>()
-        {
-            [(1920, 1080)] = (20, 10, 600, 500),
-            [(1600, 900)] = (20, 10, 550, 400),
-            [(1366, 768)] = (20, 10, 470, 330),
-            [(1280, 720)] = (20, 10, 430, 310),
-        };
 
         public Draw(Game game, GameForm form)
         { 
             _game = game;
             _form = form;
-            Resize(1280, 720);
         }
 
-        public void Resize(int x, int y)
+        public void Resize(Resolution resolution)
         {
-            var size = (x, y);
-            _form.ClientSize = new Size(x, y);
-            if (_resolution.ContainsKey(size))
-            {
-                (_diskHeight, _pegWidth, _pegPedding, _pegSpacing) = _resolution[size];
-            }
-            else
-            {
-                (_diskHeight, _pegWidth, _pegPedding, _pegSpacing) = _resolution[(1280, 720)];
-            }
+            _form.ClientSize = new Size(resolution.Width, resolution.Height);
+
+            _pegPedding = (int)Math.Round(resolution.Height * 0.6f + 40);
+            _pegSpacing = (int)Math.Round(resolution.Width * 0.2f + 40);
 
             _form.Refresh();
         }

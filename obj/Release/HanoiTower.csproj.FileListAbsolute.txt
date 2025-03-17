@@ -8,3 +8,13 @@ C:\GitHub\HanoiTower\obj\Release\HanoiTower.csproj.GenerateResource.cache
 C:\GitHub\HanoiTower\obj\Release\HanoiTower.csproj.CoreCompileInputs.cache
 C:\GitHub\HanoiTower\obj\Release\HanoiTower.exe
 C:\GitHub\HanoiTower\obj\Release\HanoiTower.pdb
+E:\Git\HanoiTower\bin\Release\HanoiTower.exe.config
+E:\Git\HanoiTower\bin\Release\HanoiTower.exe
+E:\Git\HanoiTower\bin\Release\HanoiTower.pdb
+E:\Git\HanoiTower\obj\Release\HanoiTower.csproj.AssemblyReference.cache
+E:\Git\HanoiTower\obj\Release\HanoiTower.GameForm.resources
+E:\Git\HanoiTower\obj\Release\HanoiTower.Properties.Resources.resources
+E:\Git\HanoiTower\obj\Release\HanoiTower.csproj.GenerateResource.cache
+E:\Git\HanoiTower\obj\Release\HanoiTower.csproj.CoreCompileInputs.cache
+E:\Git\HanoiTower\obj\Release\HanoiTower.exe
+E:\Git\HanoiTower\obj\Release\HanoiTower.pdb

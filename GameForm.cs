@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace HanoiTower
 {
@@ -10,18 +12,18 @@ namespace HanoiTower
         private SerializedObject _configs;
         private Timer _timer;
 
+        private List<Resolution> _resolutions;
+
         public GameForm()
         {
             InitializeComponent();
 
-            resolutionBox.Items.Clear();
-            resolutionBox.Items.AddRange(new string[] {
-                "1920 x 1080", 
-                "1600 x 900",
-                "1366 x 768", 
-                "1280 x 720"
-            });
-            resolutionBox.SelectedIndex = 3;
+            _resolutions = new List<Resolution>
+            {
+                new Resolution(1920, 1080),
+                new Resolution(1600, 900),
+                new Resolution(1280, 720)
+            };
         }
 
         private void OnFormLoaded(object sender, EventArgs e)
@@ -38,6 +40,11 @@ namespace HanoiTower
                 speedField.Value = _configs.GetValue<decimal>("Speed");
                 _game.DiskCount = (int)diskCountField.Value;
             }
+
+            resolutionBox.Items.Clear();
+            _resolutions.ForEach(x => resolutionBox.Items.Add(x.ToString()));
+            resolutionBox.SelectedIndex = 0;
+            _draw.Resize(_resolutions[resolutionBox.SelectedIndex]);
 
             _timer = new Timer();
             _timer.Interval = (int)speedField.Value;
@@ -116,21 +123,8 @@ namespace HanoiTower
             if (_draw == null)
                 return;
 
-            switch ((string)resolutionBox.SelectedItem) 
-            {
-                case "1920 x 1080":
-                    _draw.Resize(1920, 1080);
-                    break;
-                case "1600 x 900":
-                    _draw.Resize(1600, 900);
-                    break;
-                case "1366 x 768":
-                    _draw.Resize(1366, 768);
-                    break;
-                case "1280 x 720":
-                    _draw.Resize(1280, 720);
-                    break;
-            }
+            Resolution resolution = _resolutions[resolutionBox.SelectedIndex];
+            _draw.Resize(resolution);
         }
 
         private void DiskCountFieldValueChanged(object sender, EventArgs e)

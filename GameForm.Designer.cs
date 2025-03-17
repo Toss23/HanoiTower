@@ -113,7 +113,7 @@
             this.resolutionBox.Location = new System.Drawing.Point(1126, 12);
             this.resolutionBox.Name = "resolutionBox";
             this.resolutionBox.Size = new System.Drawing.Size(126, 21);
-            this.resolutionBox.TabIndex = 4;
+            this.resolutionBox.TabIndex = 0;
             this.resolutionBox.SelectedIndexChanged += new System.EventHandler(this.ResolutionBoxSelectedIndexChanged);
             // 
             // diskLabel

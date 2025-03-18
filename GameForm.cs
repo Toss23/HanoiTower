@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Linq;
 using System.Collections.Generic;
 
 namespace HanoiTower
@@ -9,7 +8,7 @@ namespace HanoiTower
     {
         private Game _game;
         private Draw _draw;
-        private SerializedObject _configs;
+        private Configs _configs;
         private Timer _timer;
 
         private List<Resolution> _resolutions;
@@ -22,7 +21,8 @@ namespace HanoiTower
             {
                 new Resolution(1920, 1080),
                 new Resolution(1600, 900),
-                new Resolution(1280, 720)
+                new Resolution(1280, 720),
+                new Resolution(640, 480)
             };
         }
 
@@ -31,20 +31,20 @@ namespace HanoiTower
             _game = new Game();
             _draw = new Draw(_game, this);
 
-            _configs = new SerializedObject();
-            _configs.LoadFile("data.sav");
-            if (_configs.Corrupted() == false)
-            {
-                resolutionBox.SelectedIndex = _configs.GetValue<int>("ResolutionBoxIndex");
-                diskCountField.Value = _configs.GetValue<decimal>("DiskCount");
-                speedField.Value = _configs.GetValue<decimal>("Speed");
-                _game.DiskCount = (int)diskCountField.Value;
-            }
-
             resolutionBox.Items.Clear();
             _resolutions.ForEach(x => resolutionBox.Items.Add(x.ToString()));
             resolutionBox.SelectedIndex = 0;
             _draw.Resize(_resolutions[resolutionBox.SelectedIndex]);
+
+            _configs = new Configs("data.json");
+            if (_configs.LoadFile())
+            {
+                resolutionBox.SelectedIndex = _configs.ResolutionBoxIndex;
+                diskCountField.Value = _configs.DiskCount;
+                speedField.Value = _configs.Speed;
+
+                _game.DiskCount = (int)diskCountField.Value;
+            }
 
             _timer = new Timer();
             _timer.Interval = (int)speedField.Value;
@@ -57,11 +57,10 @@ namespace HanoiTower
         {
             if (_configs != null)
             {
-                _configs = new SerializedObject();
-                _configs.AddValue("ResolutionBoxIndex", resolutionBox.SelectedIndex);
-                _configs.AddValue("DiskCount", diskCountField.Value);
-                _configs.AddValue("Speed", speedField.Value);
-                _configs.SaveFile("data.sav");
+                _configs.ResolutionBoxIndex = resolutionBox.SelectedIndex;
+                _configs.DiskCount = (int)diskCountField.Value;
+                _configs.Speed = (int)speedField.Value;
+                _configs.SaveFile();
             }
         }
 

@@ -55,9 +55,15 @@
             // 
             // buttonReset
             // 
+<<<<<<< Updated upstream
             this.buttonReset.Location = new System.Drawing.Point(243, 41);
             this.buttonReset.Name = "buttonReset";
             this.buttonReset.Size = new System.Drawing.Size(93, 23);
+=======
+            this.buttonReset.Location = new System.Drawing.Point(248, 41);
+            this.buttonReset.Name = "buttonReset";
+            this.buttonReset.Size = new System.Drawing.Size(98, 23);
+>>>>>>> Stashed changes
             this.buttonReset.TabIndex = 1;
             this.buttonReset.Text = "Сброс";
             this.buttonReset.UseVisualStyleBackColor = true;
@@ -77,7 +83,11 @@
             0,
             0});
             this.diskCountField.Name = "diskCountField";
+<<<<<<< Updated upstream
             this.diskCountField.Size = new System.Drawing.Size(93, 20);
+=======
+            this.diskCountField.Size = new System.Drawing.Size(98, 20);
+>>>>>>> Stashed changes
             this.diskCountField.TabIndex = 2;
             this.diskCountField.Value = new decimal(new int[] {
             4,
@@ -90,7 +100,11 @@
             // 
             this.buttonStop.Location = new System.Drawing.Point(144, 12);
             this.buttonStop.Name = "buttonStop";
+<<<<<<< Updated upstream
             this.buttonStop.Size = new System.Drawing.Size(93, 23);
+=======
+            this.buttonStop.Size = new System.Drawing.Size(98, 23);
+>>>>>>> Stashed changes
             this.buttonStop.TabIndex = 0;
             this.buttonStop.Text = "Остановить";
             this.buttonStop.UseVisualStyleBackColor = true;
@@ -98,9 +112,15 @@
             // 
             // buttonResume
             // 
+<<<<<<< Updated upstream
             this.buttonResume.Location = new System.Drawing.Point(243, 12);
             this.buttonResume.Name = "buttonResume";
             this.buttonResume.Size = new System.Drawing.Size(93, 23);
+=======
+            this.buttonResume.Location = new System.Drawing.Point(248, 12);
+            this.buttonResume.Name = "buttonResume";
+            this.buttonResume.Size = new System.Drawing.Size(98, 23);
+>>>>>>> Stashed changes
             this.buttonResume.TabIndex = 3;
             this.buttonResume.Text = "Возобновить";
             this.buttonResume.UseVisualStyleBackColor = true;
@@ -163,7 +183,11 @@
             0,
             0});
             this.speedField.Name = "speedField";
+<<<<<<< Updated upstream
             this.speedField.Size = new System.Drawing.Size(93, 20);
+=======
+            this.speedField.Size = new System.Drawing.Size(98, 20);
+>>>>>>> Stashed changes
             this.speedField.TabIndex = 7;
             this.speedField.Value = new decimal(new int[] {
             50,

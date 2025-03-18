@@ -140,7 +140,10 @@ namespace HanoiTower
 
         private void SpeedFieldValueChanged(object sender, EventArgs e)
         {
-            _timer.Interval = (int)speedField.Value;
+            if (_timer != null)
+            {
+                _timer.Interval = (int)speedField.Value;
+            }
         }
     }
 }

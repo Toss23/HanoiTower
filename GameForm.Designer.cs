@@ -176,11 +176,13 @@
             // 
             // trackBar
             // 
+            this.trackBar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.trackBar.Location = new System.Drawing.Point(12, 384);
             this.trackBar.Name = "trackBar";
             this.trackBar.Size = new System.Drawing.Size(600, 45);
             this.trackBar.TabIndex = 9;
-            this.trackBar.Scroll += new System.EventHandler(this.trackBarScroll);
+            this.trackBar.Scroll += new System.EventHandler(this.TrackBarScroll);
             // 
             // GameForm
             // 

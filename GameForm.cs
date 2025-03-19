@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Collections.Generic;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace HanoiTower
 {
@@ -50,6 +51,10 @@ namespace HanoiTower
             _timer.Interval = (int)speedField.Value;
             _timer.Tick += Update;
 
+            trackBar.Value = 0;
+            trackBar.Minimum = 0;
+            trackBar.Maximum = 0;
+
             _game.Reset();
         }
 
@@ -73,6 +78,7 @@ namespace HanoiTower
             }
 
             _game.NextMove();
+            trackBar.Value = _game.CurrentMoveIndex;
             Invalidate();
         }
 
@@ -87,6 +93,9 @@ namespace HanoiTower
         {
             if (_game.StartSolve())
             {
+                trackBar.Minimum = -1;
+                trackBar.Maximum = _game.MoveCount - 1;
+
                 _timer.Start();
             }
         }
@@ -141,9 +150,18 @@ namespace HanoiTower
             _timer.Interval = (int)speedField.Value;
         }
 
-        private void trackBarScroll(object sender, EventArgs e)
+        private void TrackBarScroll(object sender, EventArgs e)
         {
+            if (_game.State == Game.GameState.Reseted)
+            {
+                trackBar.Value = 0;
+                return;
+            }
 
+            _timer.Stop();
+            _game.StopSolve();
+            _game.SetMove(trackBar.Value);
+            Invalidate();
         }
     }
 }

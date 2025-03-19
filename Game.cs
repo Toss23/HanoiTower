@@ -83,8 +83,10 @@ namespace HanoiTower
             return false;
         }
 
-        private void Update()
+        public void NextMove()
         {
+            _currentMoveIndex++;
+
             var move = _moveQueue[_currentMoveIndex];
 
             var disk = _pegs[move.fromPeg][_pegs[move.fromPeg].Count - 1];
@@ -92,16 +94,28 @@ namespace HanoiTower
             _pegs[move.toPeg].Add(disk);
         }
 
-        public void NextMove()
-        {
-            _currentMoveIndex++;
-            Update();
-        }
-
         public void PrevMove()
         {
+            var move = _moveQueue[_currentMoveIndex];
+
+            var disk = _pegs[move.toPeg][_pegs[move.toPeg].Count - 1];
+            _pegs[move.toPeg].RemoveAt(_pegs[move.toPeg].Count - 1);
+            _pegs[move.fromPeg].Add(disk);
+
             _currentMoveIndex--;
-            Update();
+        }
+
+        public void SetMove(int value)
+        {
+            while (value > _currentMoveIndex)
+            {
+                NextMove();
+            }
+
+            while (value < _currentMoveIndex)
+            {
+                PrevMove();
+            }        
         }
 
         private void SolveHanoi(int disks, int fromPeg, int toPeg, int auxPeg)

@@ -54,3 +54,6 @@ C:\Unity\HanoiTower\obj\Debug\HanoiTower.csproj.CoreCompileInputs.cache
 C:\Unity\HanoiTower\obj\Debug\HanoiTower.csproj.Up2Date
 C:\Unity\HanoiTower\obj\Debug\HanoiTower.exe
 C:\Unity\HanoiTower\obj\Debug\HanoiTower.pdb
+C:\GitHub\HanoiTower\bin\Debug\Newtonsoft.Json.dll
+C:\GitHub\HanoiTower\bin\Debug\Newtonsoft.Json.xml
+C:\GitHub\HanoiTower\obj\Debug\HanoiTower.csproj.Up2Date

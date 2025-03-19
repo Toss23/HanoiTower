@@ -66,13 +66,13 @@ namespace HanoiTower
 
         private void Update(object sender, EventArgs e)
         {
-            if (_game.QueueIsEmpty)
+            if (_game.CurrentMoveIndex >= _game.MoveCount)
             {
                 _timer.Stop();
                 return;
             }
 
-            _game.Update();
+            _game.NextMove();
             Invalidate();
         }
 

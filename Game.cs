@@ -15,9 +15,14 @@ namespace HanoiTower
         private List<(int disk, int fromPeg, int toPeg)> _moveQueue;
         private GameState _state;
 
+        private int _currentMoveIndex;
+
+        public int CurrentMoveIndex => _currentMoveIndex;
+        public int MoveCount => _moveQueue.Count;
+        public List<(int disk, int fromPeg, int toPeg)> MoveQueue => _moveQueue;
+
         public GameState State => _state;
         public List<Disk>[] Pegs => _pegs;
-        public bool QueueIsEmpty => _moveQueue.Count <= 0;
 
         public Game() 
         {
@@ -51,6 +56,7 @@ namespace HanoiTower
 
             _state = GameState.Playing;
             _moveQueue.Clear();
+            _currentMoveIndex = -1;
             SolveHanoi(DiskCount, 0, 2, 1);
             return true;
         }
@@ -77,14 +83,25 @@ namespace HanoiTower
             return false;
         }
 
-        public void Update()
+        private void Update()
         {
-            var move = _moveQueue[0];
-            _moveQueue.RemoveAt(0);
+            var move = _moveQueue[_currentMoveIndex];
 
             var disk = _pegs[move.fromPeg][_pegs[move.fromPeg].Count - 1];
             _pegs[move.fromPeg].RemoveAt(_pegs[move.fromPeg].Count - 1);
             _pegs[move.toPeg].Add(disk);
+        }
+
+        public void NextMove()
+        {
+            _currentMoveIndex++;
+            Update();
+        }
+
+        public void PrevMove()
+        {
+            _currentMoveIndex--;
+            Update();
         }
 
         private void SolveHanoi(int disks, int fromPeg, int toPeg, int auxPeg)

@@ -1,0 +1,43 @@
+E:\HanoiTower\bin\Debug\HanoiTower.exe.config
+E:\HanoiTower\bin\Debug\HanoiTower.exe
+E:\HanoiTower\bin\Debug\HanoiTower.pdb
+E:\HanoiTower\obj\Debug\HanoiTower.csproj.AssemblyReference.cache
+E:\HanoiTower\obj\Debug\HanoiTower.Form1.resources
+E:\HanoiTower\obj\Debug\HanoiTower.Properties.Resources.resources
+E:\HanoiTower\obj\Debug\HanoiTower.csproj.GenerateResource.cache
+E:\HanoiTower\obj\Debug\HanoiTower.csproj.CoreCompileInputs.cache
+E:\HanoiTower\obj\Debug\HanoiTower.exe
+E:\HanoiTower\obj\Debug\HanoiTower.pdb
+C:\Users\mas\Desktop\HanoiTower-main\bin\Debug\HanoiTower.exe.config
+C:\Users\mas\Desktop\HanoiTower-main\bin\Debug\HanoiTower.exe
+C:\Users\mas\Desktop\HanoiTower-main\bin\Debug\HanoiTower.pdb
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.csproj.AssemblyReference.cache
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.Form1.resources
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.Properties.Resources.resources
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.csproj.GenerateResource.cache
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.csproj.CoreCompileInputs.cache
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.exe
+C:\Users\mas\Desktop\HanoiTower-main\obj\Debug\HanoiTower.pdb
+C:\GitHub\HanoiTower\bin\Debug\HanoiTower.exe.config
+C:\GitHub\HanoiTower\bin\Debug\HanoiTower.exe
+C:\GitHub\HanoiTower\bin\Debug\HanoiTower.pdb
+C:\GitHub\HanoiTower\obj\Debug\HanoiTower.csproj.AssemblyReference.cache
+C:\GitHub\HanoiTower\obj\Debug\HanoiTower.Properties.Resources.resources
+C:\GitHub\HanoiTower\obj\Debug\HanoiTower.csproj.GenerateResource.cache
+C:\GitHub\HanoiTower\obj\Debug\HanoiTower.csproj.CoreCompileInputs.cache
+C:\GitHub\HanoiTower\obj\Debug\HanoiTower.exe
+C:\GitHub\HanoiTower\obj\Debug\HanoiTower.pdb
+C:\GitHub\HanoiTower\obj\Debug\HanoiTower.GameForm.resources
+C:\GitHub\HanoiTower — копия\bin\Debug\HanoiTower.exe.config
+C:\GitHub\HanoiTower — копия\bin\Debug\HanoiTower.exe
+C:\GitHub\HanoiTower — копия\bin\Debug\HanoiTower.pdb
+C:\GitHub\HanoiTower — копия\obj\Debug\HanoiTower.csproj.AssemblyReference.cache
+C:\GitHub\HanoiTower — копия\obj\Debug\HanoiTower.GameForm.resources
+C:\GitHub\HanoiTower — копия\obj\Debug\HanoiTower.Properties.Resources.resources
+C:\GitHub\HanoiTower — копия\obj\Debug\HanoiTower.csproj.GenerateResource.cache
+C:\GitHub\HanoiTower — копия\obj\Debug\HanoiTower.csproj.CoreCompileInputs.cache
+C:\GitHub\HanoiTower — копия\obj\Debug\HanoiTower.exe
+C:\GitHub\HanoiTower — копия\obj\Debug\HanoiTower.pdb
+C:\GitHub\HanoiTower — копия\bin\Debug\Newtonsoft.Json.dll
+C:\GitHub\HanoiTower — копия\bin\Debug\Newtonsoft.Json.xml
+C:\GitHub\HanoiTower — копия\obj\Debug\HanoiTower.csproj.Up2Date

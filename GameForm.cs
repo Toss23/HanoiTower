@@ -66,7 +66,7 @@ namespace HanoiTower
 
         private void Update(object sender, EventArgs e)
         {
-            if (_game.CurrentMoveIndex >= _game.MoveCount)
+            if (_game.CurrentMoveIndex >= _game.MoveCount - 1)
             {
                 _timer.Stop();
                 return;
@@ -139,6 +139,11 @@ namespace HanoiTower
         private void SpeedFieldValueChanged(object sender, EventArgs e)
         {
             _timer.Interval = (int)speedField.Value;
+        }
+
+        private void trackBarScroll(object sender, EventArgs e)
+        {
+
         }
     }
 }

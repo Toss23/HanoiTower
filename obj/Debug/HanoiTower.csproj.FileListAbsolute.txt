@@ -41,3 +41,16 @@ C:\GitHub\HanoiTower — копия\obj\Debug\HanoiTower.pdb
 C:\GitHub\HanoiTower — копия\bin\Debug\Newtonsoft.Json.dll
 C:\GitHub\HanoiTower — копия\bin\Debug\Newtonsoft.Json.xml
 C:\GitHub\HanoiTower — копия\obj\Debug\HanoiTower.csproj.Up2Date
+C:\Unity\HanoiTower\bin\Debug\HanoiTower.exe.config
+C:\Unity\HanoiTower\bin\Debug\HanoiTower.exe
+C:\Unity\HanoiTower\bin\Debug\HanoiTower.pdb
+C:\Unity\HanoiTower\bin\Debug\Newtonsoft.Json.dll
+C:\Unity\HanoiTower\bin\Debug\Newtonsoft.Json.xml
+C:\Unity\HanoiTower\obj\Debug\HanoiTower.csproj.AssemblyReference.cache
+C:\Unity\HanoiTower\obj\Debug\HanoiTower.GameForm.resources
+C:\Unity\HanoiTower\obj\Debug\HanoiTower.Properties.Resources.resources
+C:\Unity\HanoiTower\obj\Debug\HanoiTower.csproj.GenerateResource.cache
+C:\Unity\HanoiTower\obj\Debug\HanoiTower.csproj.CoreCompileInputs.cache
+C:\Unity\HanoiTower\obj\Debug\HanoiTower.csproj.Up2Date
+C:\Unity\HanoiTower\obj\Debug\HanoiTower.exe
+C:\Unity\HanoiTower\obj\Debug\HanoiTower.pdb

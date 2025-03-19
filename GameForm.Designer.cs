@@ -39,8 +39,10 @@
             this.resolutionLabel = new System.Windows.Forms.Label();
             this.speedLabel = new System.Windows.Forms.Label();
             this.speedField = new System.Windows.Forms.NumericUpDown();
+            this.trackBar = new System.Windows.Forms.TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.diskCountField)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.speedField)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonSolve
@@ -110,7 +112,7 @@
             // 
             this.resolutionBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.resolutionBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.resolutionBox.Location = new System.Drawing.Point(1126, 12);
+            this.resolutionBox.Location = new System.Drawing.Point(486, 12);
             this.resolutionBox.Name = "resolutionBox";
             this.resolutionBox.Size = new System.Drawing.Size(126, 21);
             this.resolutionBox.TabIndex = 4;
@@ -129,7 +131,7 @@
             // 
             this.resolutionLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.resolutionLabel.AutoSize = true;
-            this.resolutionLabel.Location = new System.Drawing.Point(1011, 17);
+            this.resolutionLabel.Location = new System.Drawing.Point(371, 17);
             this.resolutionLabel.Name = "resolutionLabel";
             this.resolutionLabel.Size = new System.Drawing.Size(109, 13);
             this.resolutionLabel.TabIndex = 6;
@@ -172,12 +174,21 @@
             0});
             this.speedField.ValueChanged += new System.EventHandler(this.SpeedFieldValueChanged);
             // 
+            // trackBar
+            // 
+            this.trackBar.Location = new System.Drawing.Point(12, 384);
+            this.trackBar.Name = "trackBar";
+            this.trackBar.Size = new System.Drawing.Size(600, 45);
+            this.trackBar.TabIndex = 9;
+            this.trackBar.Scroll += new System.EventHandler(this.trackBarScroll);
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(624, 441);
+            this.Controls.Add(this.trackBar);
             this.Controls.Add(this.speedLabel);
             this.Controls.Add(this.speedField);
             this.Controls.Add(this.resolutionLabel);
@@ -197,6 +208,7 @@
             this.Load += new System.EventHandler(this.OnFormLoaded);
             ((System.ComponentModel.ISupportInitialize)(this.diskCountField)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.speedField)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,6 +226,7 @@
         private System.Windows.Forms.Label resolutionLabel;
         private System.Windows.Forms.Label speedLabel;
         private System.Windows.Forms.NumericUpDown speedField;
+        private System.Windows.Forms.TrackBar trackBar;
     }
 }
 
